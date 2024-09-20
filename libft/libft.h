@@ -6,14 +6,20 @@
 /*   By: tfelguei <tfelguei.students.42porto.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 16:53:46 by tfelguei          #+#    #+#             */
-/*   Updated: 2024/09/11 16:54:07 by tfelguei         ###   ########.fr       */
+/*   Updated: 2024/09/20 18:58:58 by tfelguei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+
 # include <unistd.h>
+# include <stdio.h>
 # include <stdlib.h>
+# include <limits.h>
+# include <signal.h>
+# include "ft_printf/ft_printf.h"
+# include <sys/types.h>
 
 typedef struct s_list
 {
